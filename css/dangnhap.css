@@ -1,0 +1,127 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#banner {
+    margin-top: 2px;
+}
+
+#menu {
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(253, 137, 4);
+}
+
+#menu ul {
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul li {
+    margin: 0px 20px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li:hover {
+    background-color: rgb(153, 145, 145);
+}
+
+
+
+#footer {
+    margin-top: 350px;
+    height: 40px;
+    background-color: rgb(253, 137, 4);
+}
+
+#footer p {
+    line-height: 40px;
+    font-size: large;
+    text-align: initial;
+    text-align: center;
+    color: white;
+}
+
+.col-331{
+    width: 30%;
+    float: left;
+}
+.col-332{
+    width: 70%;
+    float: left;
+}
+
+.audio1{
+    text-align: center;
+    color: rgb(255, 187, 0);
+}
+
+.content {
+    padding: 50px;
+}
+
+.containeraa {
+    /* margin: 60px auto; */
+    width: 70%;
+    background-color: #fa7000;
+    /* min-width: 400px; */
+    padding: 40px;
+    box-shadow: 0 0 20px rgb(223, 155, 66);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    margin-bottom: 20px;
+    border: 1px solid pink;
+    padding: 10px;
+    width: 95%;
+}
+
+select{
+    width: 97%;
+}
+
+input:hover {
+    background-color: rgba(255, 192, 203, 0.37);
+}
+
+input:focus {
+    outline: 1px solid orangered;
+    background-color: white;
+
+}
+
+button {
+    /* margin: 30px 10px; */
+    background-color: rgb(48, 15, 3);
+    border: 1px solid rgb(48, 15, 3);
+    color: white;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+

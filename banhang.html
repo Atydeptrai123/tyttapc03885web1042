@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CĂN TIN</title>
+    <link href="css/banhang.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div id="logo">
+            <center>
+                <img src="img/logo.png" width="200px">
+            </center>
+        </div>
+        <div id="banner">
+            <img src="img/banner.jpg" width="100%">
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="/index.html">Newfeed</a></li>
+                <li><a href="/dangky.html">Đăng ký</a></li>
+                <li><a href="/dangnhap.html">Đăng nhập</a></li>
+                <li><a href="/banhang.html">Căn tin</a></li>
+            </ul>
+        </div>
+
+
+        <div class="tittle">
+            <h2>Căn tin</h2>
+        </div>
+
+        <div class="mucgia">
+            <select name="price" id="filter">
+                    <option value="0">Chọn mức giá</option>
+					<option value="1">Dưới 1000</option>
+					<option value="2">Từ 1000 đến 5000</option>
+					<option value="3">Trên 5000</option>
+        </select>
+        </div>
+        <center>
+            <div class="khung"></div>
+        </center>
+
+        <div class="container" style="width: 70% !important;">
+            <table class="table table-bordered ">
+                <thead>
+                    <tr>
+                        <td><input type="checkbox" id="checkAll"></td>
+                        <th>Hàng hóa</th>
+                        <th>Đơn giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Cơm tấm Long Xuyên</td>
+                        <td>25000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Mì thịt vịt</td>
+                        <td>20000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Mì xào khô 2 trứng</td>
+                        <td>18000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Bánh bông lan socola</td>
+                        <td>15000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Bánh khoai tây Poca</td>
+                        <td>10000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Snack cay</td>
+                        <td>7000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Cơm thêm </td>
+                        <td>5000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Mì thêm </td>
+                        <td>4000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Kẹo sữa bò </td>
+                        <td>500</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">Tổng</th>
+                        <th id="tongtien"></th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div id="footer">
+            <p>Tôn Trương A Tỷ - PC03885 - IT17308</p>
+        </div>
+
+    </div>
+    <script src="/js/banhang.js"></script>
+    <!-- Có tham khảo code từ kênh youtube Liam -->
+
+</body>
+
+</html>
